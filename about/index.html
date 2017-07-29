@@ -99,12 +99,13 @@
 
 <meta name="description" content="graduated from HUST">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Shining&#39;s Blog">
-<meta property="og:url" content="http://www.shining.men/archives/index.html">
+<meta property="og:title" content="About">
+<meta property="og:url" content="http://www.shining.men/about/index.html">
 <meta property="og:site_name" content="Shining&#39;s Blog">
 <meta property="og:description" content="graduated from HUST">
+<meta property="og:updated_time" content="2017-07-29T13:42:51.074Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Shining&#39;s Blog">
+<meta name="twitter:title" content="About">
 <meta name="twitter:description" content="graduated from HUST">
 
 
@@ -133,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://www.shining.men/archives/"/>
+  <link rel="canonical" href="http://www.shining.men/about/"/>
 
 
 
 
 
-  <title>Archive | Shining's Blog</title>
+  <title>About | Shining's Blog</title>
   
 
 
@@ -164,7 +165,7 @@
     
   
 
-  <div class="container sidebar-position-right  page-archive  ">
+  <div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -302,103 +303,20 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+  <header class="post-header">
 
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      Um..! 2 posts in total. Keep on posting.
-    </span>
+	<h2 class="post-title" itemprop="name headline">About</h2>
+
+
+
+</header>
 
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/07/30/Hexo编写博客教程/" itemprop="url">
-              
-                <span itemprop="name">Hexo编写博客教程</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-07-29T20:20:39Z"
-              content="2017-07-29" >
-          07-29
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
     
-
       
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/07/29/How-to-build-a-Blog-with-hexo/" itemprop="url">
-              
-                <span itemprop="name">How to Build a Blog With Hexo!</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-07-29T13:40:39Z"
-              content="2017-07-29" >
-          07-29
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
     
-
-  </section>
-
-  
-
+  </div>
 
 
           </div>
@@ -406,6 +324,17 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -626,12 +555,10 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
 
+  
 
   
 
@@ -649,6 +576,18 @@
       <script id="dsq-count-scr" src="https://xxradon.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://www.shining.men/about/index.html';
+          this.page.identifier = 'about/index.html';
+          this.page.title = 'About';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://xxradon.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
